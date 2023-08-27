@@ -7,48 +7,43 @@ According to the U.S. National Institute of Neurological Disorders and Stroke, P
 There is growing interest in developing new, non-invasive methods for diagnosing PD. One possible approach is to analyse a person’s speech data obtained from multiple types of sound recordings. PPD usually experiences dysphonia, which leads to reduced loudness, breathiness, roughness, and exaggerated vocal tremors. These symptoms can be diagnosed in a non-invasive way by analysing various frequency-based characteristics in a person’s voice.
 This group assessment project focuses on analysing a set of acoustic measurement data extracted from the voice samples of PPD and, where indicated, from those who were healthy. For these subjects, physicians also carried out medical examinations on the PPD and assigned them an appropriate Unified Parkinson’s Disease Rating Scale (UPDRS) score to indicate the disease severity and progression.
 
-### 1 National Institute of Neurological Disorders and Stroke (2023). https://www.ninds.nih.gov/health- information/disorders/parkinsons-disease
+##### 1 National Institute of Neurological Disorders and Stroke (2023). https://www.ninds.nih.gov/health- information/disorders/parkinsons-disease
 
-### 2 https://www.parkinson.org/understanding-parkinsons/statistics/notable-figures
+##### 2 https://www.parkinson.org/understanding-parkinsons/statistics/notable-figures
 
 ### Variables of PD
 
-Subject identifier
-Jitter %
-Jitter ms
-Jitter r.a.p
-Jitter p.p.q.5
-Jitter d.d.p
+- Subject identifier
+- Jitter %
+- Jitter ms
+- Jitter r.a.p
+- Jitter p.p.q.5
+- Jitter d.d.p
+- Shimmer %
+- Shimmer dB
+- Shimmer a.p.q.3
+- Shimmer a.p.q.5
+- Shimmer a.p.q.11
+- Shimmer d.d.a
+- Harmonicity (autocorrelation)
+- Harmonicity NHR
+- Harmonicity HNR
+- Median Pitch
+- Mean Pitch
+- SD Pitch
+- Minimum Pitch
+- Maximum Pitch
+- Pulse (no)
+- Pulse (No. of periods)
+- Pulse (mean period)
+- Pulse (SD period)
+- Voice (unframed voice)
+- Voice (no. of breaks)
+- Voice (degree of breaks)
+- UPDRS
+- PD indicator
 
-Shimmer %
-Shimmer dB
-Shimmer a.p.q.3
-Shimmer a.p.q.5
-Shimmer a.p.q.11
-Shimmer d.d.a
-
-Harmonicity (autocorrelation)
-Harmonicity NHR
-Harmonicity HNR
-Median Pitch
-Mean Pitch
-
-SD Pitch
-Minimum Pitch
-Maximum Pitch
-Pulse (no)
-Pulse (No. of periods)
-
-Pulse (mean period)
-Pulse (SD period)
-Voice (unframed voice)
-Voice (no. of breaks)
-
-Voice (degree of breaks)
-UPDRS
-PD indicator
-
-### Dataset 1
+### Dataset
 
 This dataset contains data collected from 40 study subjects, of which 20 were individuals living with Parkinson’s Disease (PPD) and the remaining 20 were healthy individuals (non-PPD group).3 The mean age of the PPD group is 64.86 years old (standard deviation: 8.97). The mean age of the non-PPD group is 62.55 years old (standard deviation: 10.79).
 In this study, each subject was asked to record 26 different voice samples. These samples include the recording of saying 3 sustained vowels (“a”, “o”, “u”), 10 numbers (1 to 10), 9 different words, and 4 rhymed short sentences. This dataset includes all these voice samples but does not indicate the specific recording it represents (i.e. we do not know whether a voice sample comes from recording a sustained vowel or a short sentence). Please note this limitation.
