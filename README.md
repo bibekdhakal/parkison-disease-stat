@@ -51,4 +51,4 @@ A set of 26 acoustic features were further extracted from each voice sample usin
 
 ### Correlation matrix
 
-![alt text](https://github.com/bibekdhakal/parkison-disease-stat/heatmap.png)
+![alt text](https://github.com/bibekdhakal/parkison-disease-stat/blob/main/heatmap.png)
