@@ -1,1 +1,1 @@
-# parkison-disease-stat
+# Parkison Disease
