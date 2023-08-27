@@ -48,3 +48,7 @@ This group assessment project focuses on analysing a set of acoustic measurement
 This dataset contains data collected from 40 study subjects, of which 20 were individuals living with Parkinson’s Disease (PPD) and the remaining 20 were healthy individuals (non-PPD group).3 The mean age of the PPD group is 64.86 years old (standard deviation: 8.97). The mean age of the non-PPD group is 62.55 years old (standard deviation: 10.79).
 In this study, each subject was asked to record 26 different voice samples. These samples include the recording of saying 3 sustained vowels (“a”, “o”, “u”), 10 numbers (1 to 10), 9 different words, and 4 rhymed short sentences. This dataset includes all these voice samples but does not indicate the specific recording it represents (i.e. we do not know whether a voice sample comes from recording a sustained vowel or a short sentence). Please note this limitation.
 A set of 26 acoustic features were further extracted from each voice sample using a free acoustic analysis software called Praat.4 The variables in this dataset represent these features.
+
+### Correlation matrix
+
+![alt text](https://github.com/bibekdhakal/parkison-disease-stat/heatmap.png)
