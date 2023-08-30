@@ -49,9 +49,6 @@ This dataset contains data collected from 40 study subjects, of which 20 were in
 In this study, each subject was asked to record 26 different voice samples. These samples include the recording of saying 3 sustained vowels (“a”, “o”, “u”), 10 numbers (1 to 10), 9 different words, and 4 rhymed short sentences. This dataset includes all these voice samples but does not indicate the specific recording it represents (i.e. we do not know whether a voice sample comes from recording a sustained vowel or a short sentence). Please note this limitation.
 A set of 26 acoustic features were further extracted from each voice sample using a free acoustic analysis software called Praat.4 The variables in this dataset represent these features.
 
-### Correlation matrix
-
-![alt text](https://github.com/bibekdhakal/parkison-disease-stat/blob/nstha/output/heatmap.png)
 ![alt text](https://github.com/bibekdhakal/parkison-disease-stat/blob/nstha/output/Harmonicity_autocorrelation.png)
 ![alt text](https://github.com/bibekdhakal/parkison-disease-stat/blob/nstha/output/Pulse_Mean_period.png)
 ![alt text](https://github.com/bibekdhakal/parkison-disease-stat/blob/nstha/output/Median_pitch.png)
@@ -78,3 +75,6 @@ A set of 26 acoustic features were further extracted from each voice sample usin
 ![alt text](https://github.com/bibekdhakal/parkison-disease-stat/blob/nstha/output/Shimmer_d.d.a.png)
 ![alt text](https://github.com/bibekdhakal/parkison-disease-stat/blob/nstha/output/Jitter_ms.png)
 
+### Correlation matrix
+
+![alt text](https://github.com/bibekdhakal/parkison-disease-stat/blob/nstha/output/heatmap.png)
